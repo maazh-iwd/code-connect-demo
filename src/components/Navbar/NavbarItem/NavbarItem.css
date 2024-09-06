@@ -1,0 +1,31 @@
+.navbar-item {
+  display: flex;
+  padding: 0px 10px 18px 10px;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: var(--Brand-red, #c41f3e);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: var(--Font-faces-flux-font-face, Arial);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.selected {
+  border-bottom: 3px solid var(--Brand-red, #c41f3e);
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  background-color: var(--Accents-flux-accent-red, #f55);
+  border-radius: 50%;
+  margin-left: 10px;
+}

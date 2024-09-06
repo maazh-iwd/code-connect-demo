@@ -1,0 +1,9 @@
+.navbar ul {
+  display: flex;
+  width: 898px;
+  flex-direction: row;
+  align-items: flex-start;
+  border-bottom: var(--stroke-1, 1px) solid
+    var(--Border-border-decorative, #bbbcbc);
+  padding: 0;
+}

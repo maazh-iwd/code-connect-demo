@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  width: 946px;
+  padding: var(--spacing-24, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-sxs-screen-level-20, 20px);
+  border-radius: 4px;
+  background: var(--Background-white, #fff);
+}
+
+.title {
+  color: var(--Text-text-primary, #383b3e);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Body Copy/Body Copy - Large, Bold */
+  font-family: var(--Font-faces-flux-font-face, Arial);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 143.75% */
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: 898px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--spacing-sxs-screen-level-20, 20px);
+}
